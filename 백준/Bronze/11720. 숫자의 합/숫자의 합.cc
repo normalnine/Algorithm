@@ -5,13 +5,13 @@ int main()
 {
     int n = 0;
     int sum = 0;
-    string arr;
+    string s;
     
-    cin>>n>>arr;
+    cin>>n>>s;
     
     for(int i=0; i<n; i++)
     {
-        sum += (int)arr[i]-48;
+        sum += (int)s[i]-48;
     }
     
     cout<<sum;

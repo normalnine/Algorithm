@@ -13,8 +13,7 @@ int main()
         if(a== 0 && b== 0 && c==0)
         {
             return 0;
-        }
-        
+        }        
         
         if(a>c)
         {
@@ -38,7 +37,6 @@ int main()
         {
           cout<<"wrong\n";
         }
-
     }
     
     return 0;

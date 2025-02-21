@@ -13,5 +13,5 @@ int main() {
     
     sort(arr.begin(), arr.end()); // 가장 빠른 정렬
 
-    for (int x : arr) cout << x << ' ';
+    for (int x : arr) cout << x << '\n';
 }
